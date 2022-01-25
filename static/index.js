@@ -348,10 +348,10 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 49) return 'サボんなや治！！';
-        if (score <= 99) return 'TCL';
-        if (score <= 149) return 'TQL';
-        if (score <= 199) return '您';
+        if (score <= 49) return '指着废物说废物有什么错！';
+        if (score <= 99) return '不要偷懒呐！阿治！！';
+        if (score <= 149) return '真帅啊！~';
+        if (score <= 199) return '骗人的吧！！';
         return '人？';
     }
 
